@@ -1,0 +1,152 @@
+$primary-color: #fff;
+$secondary-color: #b6d0e2;
+$third-color: #f0f8ff;
+$fourth-color: #e1ebee;
+$fifth-color: #8da399;
+.reviews {
+    // border: 1px solid black;
+    box-sizing: border-box;
+    color: $primary-color;
+    display: flex;
+    flex-direction: column;
+
+    .review {
+        // border: 1px solid $fifth-color;
+        margin: 1% auto;
+        width: 45%;
+        height: max-content;
+        background-color: $fifth-color;
+        transition: all 1s ease-in-out;
+
+        header {
+            text-align: center;
+
+            #quote {
+                font-size: 1em;
+            }
+
+            div {
+                // border: 1px solid black;
+                font-size: 1em;
+            }
+        }
+
+        .content {
+            width: 90%;
+            margin: auto;
+            // border: 1px solid black;
+            text-align: left;
+            text-align: center;
+        }
+    }
+
+    .navigate {
+        // border: 1px solid black;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        font-weight: bolder;
+        color: $fifth-color;
+    }
+}
+
+@media (max-width: 768px) {
+    .reviews {
+        // border: 1px solid black;
+        box-sizing: border-box;
+        background-color: inherit;
+        color: $primary-color;
+        display: flex;
+        flex-direction: column;
+
+        .review {
+            // border: 1px solid $fifth-color;
+            margin: 1% auto;
+            width: 50%;
+            height: max-content;
+            background-color: $fifth-color;
+            transition: all 1s ease-in-out;
+
+            header {
+                text-align: center;
+
+                #quote {
+                    font-size: 1em;
+                }
+
+                div {
+                    // border: 1px solid black;
+                    font-size: 1em;
+                }
+            }
+
+            .content {
+                width: 90%;
+                margin: auto;
+                // border: 1px solid black;
+                text-align: left;
+                text-align: center;
+            }
+        }
+
+        .navigate {
+            // border: 1px solid black;
+            width: 20%;
+            text-align: center;
+            margin: auto;
+            font-weight: bolder;
+            color: $fifth-color;
+        }
+    }
+}
+
+@media (max-width: 452px) {
+    .reviews {
+        // border: 1px solid black;
+        box-sizing: border-box;
+        background-color: inherit;
+        color: $primary-color;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .review {
+            // border: 1px solid $fifth-color;
+            margin: 1% auto;
+            width: 90%;
+            height: max-content;
+            background-color: $fifth-color;
+            transition: all 1s ease-in-out;
+
+            header {
+                text-align: center;
+
+                #quote {
+                    font-size: 1em;
+                }
+
+                div {
+                    // border: 1px solid black;
+                    font-size: 1em;
+                }
+            }
+
+            .content {
+                width: 90%;
+                margin: auto;
+                // border: 1px solid black;
+                text-align: left;
+                text-align: center;
+            }
+        }
+
+        .navigate {
+            // border: 1px solid black;
+            width: 20%;
+            text-align: center;
+            margin: auto;
+            font-weight: bolder;
+            color: $fifth-color;
+        }
+    }
+}
